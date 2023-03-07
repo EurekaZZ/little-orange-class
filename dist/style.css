@@ -378,12 +378,12 @@ h2{
   font-size: 14px;
   color:#808080;
 }
-.extra-death {
+.doc {
   position: relative;
   width: 100%;
   margin: 0 auto;
 }
-.extra-death-imgs {
+.doc-imgs {
   width: 700px;
   position: absolute;
   left: 0;
@@ -392,7 +392,7 @@ h2{
   margin:0 auto;
   text-align:center;
 }
-.extra-death-imgs img {
+.doc-imgs img {
   position: absolute;
   left: 0;
   right: 0;
@@ -401,22 +401,22 @@ h2{
   transition: all 1s;
 }
 
-#extra-death-start{
+#doc-start{
   color:#000;
 }
 
-.extra-death-imgs img:nth-child(1) {
+.doc-imgs img:nth-child(1) {
   z-index: 2;
 }
-.extra-death-imgs img:nth-child(2) {
+.doc-imgs img:nth-child(2) {
   z-index: 1;
 }
-.extra-death-text {
+.doc-text {
   position: relative;
   z-index: 2;
   margin-bottom: 550px;
 }
-.extra-death-p {
+.doc-p {
   font-size: 16px;
   width: 600px;
   padding: 20px 40px;
